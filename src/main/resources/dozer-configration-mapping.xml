@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+	<configuration>
+		<stop-on-errors>false</stop-on-errors>
+		<date-format>MM/dd/yyyy HH:mm</date-format>
+		<wildcard>true</wildcard>
+	</configuration>
+	<mapping>
+		<class-a>com.misfat.qrqc.model.Ligne</class-a>
+		<class-b>com.misfat.qrqc.dto.LigneDTO</class-b>
+	</mapping>
+	<mapping>
+		<class-a>com.misfat.qrqc.model.Processus</class-a>
+		<class-b>com.misfat.qrqc.dto.ProcessusDTO</class-b>
+	</mapping>
+	<mapping>
+		<class-a>com.misfat.qrqc.model.Service</class-a>
+		<class-b>com.misfat.qrqc.dto.ServiceDTO</class-b>
+	</mapping>
+	<mapping>
+		<class-a>com.misfat.qrqc.model.Personnel</class-a>
+		<class-b>com.misfat.qrqc.dto.PersonnelDTO</class-b>
+	</mapping>
+	<mapping>
+		<class-a>com.misfat.qrqc.model.Effet</class-a>
+		<class-b>com.misfat.qrqc.dto.EffetDTO</class-b>
+	</mapping>
+</mappings>

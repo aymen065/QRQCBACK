@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://dbserverqrqc.mysql.database.azure.com:3306/QRQC?createDatabaseIfNotExist=true&autoReconnect=true
+    username: aymenads@dbserverqrqc
+    password: Aa123456789!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    open-in-view: true
+    database: MYSQL
+    show-sql: true
+    hibernate: 
+      ddl-auto: update
+      naming:
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+server:
+  port: 6000
