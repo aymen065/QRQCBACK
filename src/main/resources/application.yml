@@ -13,4 +13,4 @@ spring:
       naming:
         implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
 server:
-  port: 6000
+  port: 5000
