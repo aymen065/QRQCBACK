@@ -1,0 +1,5 @@
+FROM openjdk:8-jdk-alpine
+#VOLUME /tmp
+EXPOSE 5000
+ADD qrqc-api/qrqc/target/qrqc-0.0.1-SNAPSHOT.war qrqcAPI.war
+ENTRYPOINT ["java","-jar","qrqcAPI.war"]
